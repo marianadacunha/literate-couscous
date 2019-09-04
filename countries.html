@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="ANSI"/>
+<title> My First Website </title>
+<link rel="stylesheet" type="text/css" href="_css/style_countries.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700,800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="interface">
+<header id=top>
+    <hgroup>
+<h1><a href="index.html">Places I want to visit</a></h1>
+<h2>An experiment on HTML and CSS</h2>
+    </hgroup>
+    
+<nav id="menu">
+    <h1>Main Menu</h1>
+<ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="countries.html">Countries</a></li>
+        <li><a href="skills.html">Skills Learned</a></li>
+        <li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+</header>
+
+<hgroup>
+<h1 id="map">Click on any highlighted area of ​​the image to get more information about the countries.</h1>
+<figure class="europe">
+<img src="src/img/europe color-01.png" alt="europe map" usemap="#myMap">
+<map name="myMap">
+    <area shape="rect" coords="58,522,85,588" href="countries_iframe.html#po" target="interactiveMap">
+    <area shape="poly" coords="64,519,72,499,199,518,133,591,81,584,89,522" href="countries_iframe.html#sp" target="interactiveMap">
+    <area shape="poly" coords="113,425,147,428,192,390,257,423,237,462,248,492,201,515,148,501,151,459,112,434" href="countries_iframe.html#fr" target="interactiveMap">
+    <area shape="poly" coords="244,473,307,451,313,495,373,546,337,589,278,489,257,492" href="countries_iframe.html#it" target="interactiveMap">
+    <area shape="poly" coords="66,279,125,254,196,373,101,404" href="countries_iframe.html#en" target="interactiveMap">
+    <area shape="poly" coords="33,174,106,159,144,191,67,228" href="countries_iframe.html#ic" target="interactiveMap">
+    <area shape="poly" coords="218,209,280,170,325,69,489,13,530,45,506,64,482,51,455,77,403,72,319,159,301,261,233,277,216,210," href="countries_iframe.html#no" target="interactiveMap">
+    <area shape="poly" coords="391,548,431,526,469,526,425,595" href="countries_iframe.html#gr" target="interactiveMap">
+    <area shape="poly" coords="323,473,352,454,381,463,387,463,350,480,366,505,349,501" href="countries_iframe.html#cr" target="interactiveMap">
+    <area shape="poly" coords="353,454,364,435,402,423,425,432,400,462,371,466,369,467" href="countries_iframe.html#hu" target="interactiveMap">
+    <area shape="poly" coords="239,376,273,332,330,342,337,388,307,398,321,427,313,439,256,437,254,438" href="countries_iframe.html#ge" target="interactiveMap">
+    <area shape="poly" coords="197,389,221,381,238,398,229,410" href="countries_iframe.html#be" target="interactiveMap">
+    <area shape="poly" coords="205,383,234,352,248,352,235,389,221,379" href="countries_iframe.html#ne" target="interactiveMap">
+    <area shape="poly" coords="309,399,338,389,379,410,356,423,341,417,328,424" href="countries_iframe.html#cz" target="interactiveMap">
+    <area shape="poly" coords="280,443,315,440,326,425,341,419,362,433,335,456,308,451,280,449" href="countries_iframe.html#au" target="interactiveMap">
+    
+</map>
+<iframe src ="countries_iframe.html" name="interactiveMap" id="countriesMap" scrolling="no"></iframe>
+</figure>
+</hgroup>
+        
+<footer id="copyright">
+        <h3>Copyright © 2019 <br>by Mariana Marques</h3>
+</footer>
+</div>
+</body>
+</html>

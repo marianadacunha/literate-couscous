@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="ANSI"/>
+<title> My First Website </title>
+<link rel="stylesheet" type="text/css" href="_css/style_form.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700,800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="interface">
+<header id=top>
+    <hgroup>
+<h1><a href="index.html">Places I want to visit</a></h1>
+<h2>An experiment on HTML and CSS</h2>
+    </hgroup>
+    
+<nav id="menu">
+    <h1>Main Menu</h1>
+<ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="countries.html">Countries</a></li>
+        <li><a href="skills.html">Skills Learned</a></li>
+        <li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+</header>
+
+<h1 id="form">Do you have any questions? Wanna give me some tips? Hire me? Or even yell at me 'cause I wrote something wrong? Be my guest!</h2>
+<form action="mailto:marianadacunhamarques@gmail.com" form method="post">
+<fieldset id="name"><legend>Name</legend><input type="text" size="80" required="required"></fieldset>
+<fieldset id="gender"><legend>Gender</legend>
+<input type="radio" name="nGender">Male<br/>
+<input type="radio" name="nGender">Female<br/>
+<input type="radio" name="nGender">Gender binary is a lie</fieldset>
+<fieldset id="mail"><legend>E-mail</legend><input type="text" size="80" required="required"></fieldset> 
+<fieldset id="date"><legend>Date of birth</legend><input type="date" required="required"></fieldset>
+<fieldset id="country"><legend>Country</legend><input type="text" size="80" required="required"></fieldset> 
+<fieldset id="message"><legend>How may I help you?</legend>
+<textarea cols="110" rows="15"></textarea>
+</fieldset>
+</form>
+
+<button type="subtmit">Send</button>
+
+<footer id="copyright">
+        <h3>Copyright © 2019 <br>by Mariana Marques</h3>
+        </footer>
+    </div>
+    </body>
+    </html>
