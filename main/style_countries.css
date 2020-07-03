@@ -68,6 +68,7 @@ body {
     margin: 1px;
     font-family:'Montserrat', sans-serif;
     font-size:10pt;
+    white-space: nowrap;
 }
 
 #menu li:hover {
