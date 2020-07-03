@@ -57,6 +57,8 @@ body {
 }
 
 #menu ul {
+    display: flex;
+    flex-direction: row;
     list-style:none;
     text-transform:uppercase;
     position:absolute;
