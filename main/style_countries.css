@@ -48,7 +48,9 @@ body {
 /* Formatting the menu */
 
 #menu {
-    display:block;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
 #menu ul {

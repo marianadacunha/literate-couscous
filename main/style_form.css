@@ -70,17 +70,18 @@ body {
 }
 
 #interface {
-    width: 1175px;
+    width: 100vw;
     background-color:rgb(219, 219, 219);
     margin: 38px 400px 40px 50px;
     padding: 5px 30px 30px 30px;
-    
 }
 
 /* Formatting the menu */
 
 #menu {
-    display:block;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
 #menu ul {
@@ -90,7 +91,6 @@ body {
     text-transform:uppercase;
     position:absolute;
     top: -17px;
-    left:864px;
 }
 
 #menu li {
